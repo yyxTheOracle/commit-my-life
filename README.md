@@ -23,6 +23,8 @@ npm run test:sites
 
 ## Vercel 部署
 
+线上预览：[commit-my-life.vercel.app](https://commit-my-life.vercel.app/)。
+
 Vercel 项目连接本仓库的 `main` 分支，后续推送会自动更新线上版本。`vercel.json` 指定 Vite、`npm ci`、`npm run build` 和输出目录 `dist/client`；仅将 `/post/` 下的请求重写到入口，保留旧 `.html` 文章地址，缺失的图片和脚本仍正常返回 404。
 
 当前使用默认域名预览效果，保留 `noindex, nofollow`；正式开放搜索收录时再处理 SEO 与站点域名。Sites 构建产物位于发布目录之外，不影响 Vercel 静态托管。
