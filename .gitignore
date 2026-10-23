@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+
+# 本机视觉验收记录，仅保留选定的设计参考图。
+/design/*
+!/design/reference.png
+/design-qa.md
+/migration-qa.md

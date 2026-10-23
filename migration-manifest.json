@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "sourceFile": "2019-05-11-东詹 & 西詹.md",
+      "path": "content/posts/2019-05-11-东詹 & 西詹.md",
+      "sha256": "8a1616b2ebde5ef06311d1b33fc54b19b5393d733b4cc9543f36d676b878f846"
+    },
+    {
+      "sourceFile": "2021-07-27-傻逼上海国拍.md",
+      "path": "content/posts/2021-07-27-傻逼上海国拍.md",
+      "sha256": "cf87e106816dba42da759e9564cd57de4faafcf4f8c405b01e781e399ab0028f"
+    },
+    {
+      "sourceFile": "2022-04-23-回调函数也能主动调用丨antd Table 组件外实现全选 & 取消全选.md",
+      "path": "content/posts/2022-04-23-回调函数也能主动调用丨antd Table 组件外实现全选 & 取消全选.md",
+      "sha256": "f82b4a46c2b56f9aec21c883eabe089cc5001d06ed79b016194062e6b552d07d"
+    },
+    {
+      "sourceFile": "2022-04-25-global 关键字.md",
+      "path": "content/posts/2022-04-25-global 关键字.md",
+      "sha256": "99073576b57f0b5c648935fb0522c528d87fbfb83471ddc55fad7dc66274f1b9"
+    },
+    {
+      "sourceFile": "2022-06-13-或许遭遇了人生最大的setback.md",
+      "path": "content/posts/2022-06-13-或许遭遇了人生最大的setback.md",
+      "sha256": "b236fa903c45eb13968c62613970f36e134923e42e9687ca3095021fd81fd951"
+    },
+    {
+      "sourceFile": "2022-11-29-提前转正啦丨一些回顾与复盘.md",
+      "path": "content/posts/2022-11-29-提前转正啦丨一些回顾与复盘.md",
+      "sha256": "92dcf8d33cbdc06d3a396de78f7e08e798609f26ca738700900ae51969db0fa3"
+    },
+    {
+      "sourceFile": "2022-12-08-onCompositionStart & onCompositionEnd.md",
+      "path": "content/posts/2022-12-08-onCompositionStart & onCompositionEnd.md",
+      "sha256": "00ff4a155d786a328a7aa007f852364b4e458a993aedf76f8a18bc07b277ba14"
+    },
+    {
+      "sourceFile": "2023-06-18-优秀技术文章留档.md",
+      "path": "content/posts/2023-06-18-优秀技术文章留档.md",
+      "sha256": "ab1731678f4cb874632877b6bd8c4edf39b919ebeb9c08c513338a679755fab2"
+    },
+    {
+      "sourceFile": "2023-08-13-发送验证码后的节流倒计时.md",
+      "path": "content/posts/2023-08-13-发送验证码后的节流倒计时.md",
+      "sha256": "0cb4ee2c6715108ade04ea41e4e482a2ed7632242384f2f0fe6cf76232fd64f4"
+    },
+    {
+      "sourceFile": "2024-03-07-Event Loop Part I.md",
+      "path": "content/posts/2024-03-07-Event Loop Part I.md",
+      "sha256": "f76cd30ae7a3818f7bed4eefff5eeb580f31c047b2d7090f6ec89c0a2c54c9b8"
+    },
+    {
+      "sourceFile": "2026-01-11-对接小红书海量数据丨Go 并发利器 Worker Pool 实践.md",
+      "path": "content/posts/2026-01-11-对接小红书海量数据丨Go 并发利器 Worker Pool 实践.md",
+      "sha256": "2f1cdcee1b02912a620fac4b63d14538730d1e9aed4b9937cee39ea6043cb19f"
+    },
+    {
+      "sourceFile": "2026-05-21-Codex 的 Computer Use 真的好强....md",
+      "path": "content/posts/2026-05-21-Codex 的 Computer Use 真的好强....md",
+      "sha256": "f1e992c1cf1dbb15e7df9b1f8dc7bbd639060f3b0b33a7fb54575ffaf5344573"
+    },
+    {
+      "sourceFile": "2026-10-17-雅典园校庆.md",
+      "path": "content/posts/2026-10-17-雅典园校庆.md",
+      "sha256": "1d0128b1cf3a8b6e3924eae3c9bc5d12465dab338835735d970ffa17997569dc"
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/images/2026-05-21/GPT-5.5-prompt-guidance.png",
+      "sha256": "4d79b4e9b534c85c32edb156193e60be4721202db6138b29ef43a9d6732e7d6b"
+    },
+    {
+      "path": "public/images/2026-05-21/e2e_prompt.jpg",
+      "sha256": "28c4aef9d270217c6aade67469d8ca9f67bcef1df56c242aec24a6dc668d7196"
+    }
+  ]
+}
