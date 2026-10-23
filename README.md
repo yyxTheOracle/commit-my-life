@@ -1,6 +1,6 @@
 # Commit My Life · Victor 的自留地
 
-独立的 React / Vite 博客，沿用已确认的深蓝、薄荷绿和复古电脑插画风格。现有 Hexo 的 **13 篇文章已完整迁入**，包含尚未发布的雅典园校庆文章。代码维护于 [yyxTheOracle/commit-my-life](https://github.com/yyxTheOracle/commit-my-life)，目前只提供本地预览，尚未部署网站。
+独立的 React / Vite 博客，沿用已确认的深蓝、薄荷绿和复古电脑插画风格。现有 Hexo 的 **13 篇文章已完整迁入**，包含尚未发布的雅典园校庆文章。代码维护于 [yyxTheOracle/commit-my-life](https://github.com/yyxTheOracle/commit-my-life)，通过 Vercel 默认域名提供线上预览，本地开发方式保持不变。
 
 ## 本地开发
 
@@ -20,6 +20,12 @@ npm run test:sites
 ```
 
 内容与渲染规则测试无需构建；`test:sites` 需要先构建。构建过程只生成本地文件，不会发布。`npm run preview -- --host 127.0.0.1 --port 4175` 可检查构建产物。
+
+## Vercel 部署
+
+Vercel 项目连接本仓库的 `main` 分支，后续推送会自动更新线上版本。`vercel.json` 指定 Vite、`npm ci`、`npm run build` 和输出目录 `dist/client`；仅将 `/post/` 下的请求重写到入口，保留旧 `.html` 文章地址，缺失的图片和脚本仍正常返回 404。
+
+当前使用默认域名预览效果，保留 `noindex, nofollow`；正式开放搜索收录时再处理 SEO 与站点域名。Sites 构建产物位于发布目录之外，不影响 Vercel 静态托管。
 
 ## 写文章
 
@@ -58,6 +64,6 @@ tags:
 - 47 个不同的远程图片地址仍引用原图床。外链需要联网，失效时页面提供原图链接；B 站播放器也依赖外部服务。
 - 校庆原稿提到照片 p1，但没有图片地址，因此没有补造图片。
 - 本轮迁移文章与其本地图片；旧站的音乐、相册、主题插件不在本轮范围内。
-- 当前为浏览器渲染的本地版本。正式上线前再确定静态生成、SEO、站点域名和部署配置。
+- 当前为浏览器渲染版本。正式开放搜索收录前，再确定静态生成、SEO 和站点域名。
 
 原创插画与本地 Noto Sans SC 展示字体位于 `public/assets/`，字体许可同目录保存；视觉参照为 `design/reference.png`。保留的 Sites 构建适配文件只供以后选用，不会自动上线。

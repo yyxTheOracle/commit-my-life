@@ -11,7 +11,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 ## 已确认的设计决定
 
 - 用户已选择方案 1：深蓝背景、薄荷绿强调色与复古电脑插画；后续视觉调整以 `design/reference.png` 为真值。
-- 代码仓库为 `yyxTheOracle/commit-my-life`，范围是独立 React / Vite 首页及全部 13 篇文章；用户已授权同步 GitHub，网站仍暂不上线。原 Hexo 仓库保持只读。
+- 代码仓库为 `yyxTheOracle/commit-my-life`，范围是独立 React / Vite 首页及全部 13 篇文章；用户已授权同步 GitHub，并部署到 Vercel 默认域名进行线上预览。原 Hexo 仓库保持只读。
 - 正文唯一来源为 `content/posts/` 中带原 Hexo frontmatter 的 Markdown；`public/images/` 保存本地配图。不得继续使用旧的单篇正文副本。
 - 保留原 `/post/<abbrlink>.html` 路径、原文、分类标签、置顶和禁用目录设置；最近三篇按日期排序，完整列表优先置顶。
 - 首页和详情共用主题；支持原稿 HTML 图文、JS/JSX/CSS/Go 代码、Mermaid 和受控 B 站视频。远程配图仍依赖原图床。

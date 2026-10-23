@@ -11,3 +11,6 @@ dist/
 !/design/reference.png
 /design-qa.md
 /migration-qa.md
+
+# Vercel 本机项目关联信息与拉取的环境配置。
+.vercel/
